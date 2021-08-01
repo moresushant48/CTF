@@ -1,1 +1,46 @@
-<p>navbar works!</p>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-light navbar-light">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+  
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="#"><b><span class="color-logo-orange">Create</span><span class="color-logo-blue">Together</span><br><span class="color-logo-green">foundation</span></b></a>
+  
+      <!-- Toggle button -->
+      <button class="navbar-toggler" type="button" (click)="basicNav.toggle()" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse float-right" id="navbarSupportedContent" mdbCollapse #basicNav="mdbCollapse">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+                <a class="nav-link color-green" href="/">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">GALLERY</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">OUR WORK</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">BLOGS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">JOIN US</a>
+            </li>
+            <li class="nav-item btn-border-green">
+                <a class="nav-link" href="#">DONATE</a>
+            </li>
+         
+        </ul>
+  
+      </div>
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->

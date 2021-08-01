@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+@import "~mdb-angular-ui-kit/assets/scss/mdb.scss";
+
+$color-blue: #2d348a;
+$color-orange: #f36f21;
+$color-green: #4caf50;
+$paddX: 18px;
+
+.btn-border-green {
+  border: 1px $color-green solid !important;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 12px;
+}
+.btn-border-green:hover {
+  border-color: $color-orange;
+}

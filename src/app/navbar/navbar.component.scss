@@ -1,0 +1,50 @@
+@use "../../styles" as app;
+
+$nav-item-spacing: 14px;
+
+.color-blue {
+  color: app.$color-blue;
+}
+
+.color-orange {
+  color: app.$color-orange;
+}
+
+.color-green {
+  color: app.$color-green;
+}
+
+.color-logo-blue {
+  color: app.$color-blue;
+}
+
+.color-logo-orange {
+  color: app.$color-orange;
+}
+
+.color-logo-green {
+  color: app.$color-green;
+}
+
+.navbar {
+  padding-left: app.$paddX;
+  padding-right: app.$paddX;
+  font-size: larger;
+}
+
+.navbar-brand {
+  font-size: x-large;
+}
+
+.nav-link {
+  color: app.$color-green !important;
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  color: app.$color-orange !important;
+}
+
+.nav-item {
+  margin-left: $nav-item-spacing;
+}
