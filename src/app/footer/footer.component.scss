@@ -1,0 +1,23 @@
+@use "../../styles" as app;
+
+footer {
+  background-color: app.$color-green;
+  color: white;
+  height: fit-content;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+footer a {
+  color: white;
+}
+
+#copyright {
+  background-color: #337535;
+  color: white;
+  height: fit-content;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

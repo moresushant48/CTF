@@ -11,6 +11,30 @@ $color-orange: #f36f21;
 $color-green: #4caf50;
 $paddX: 18px;
 
+.color-blue-bg {
+  background-color: $color-blue !important;
+}
+
+.color-orange-bg {
+  background-color: $color-orange !important;
+}
+
+.color-green-bg {
+  background-color: $color-green !important;
+}
+
+.color-blue-fg {
+  color: $color-blue !important;
+}
+
+.color-orange-fg {
+  color: $color-orange !important;
+}
+
+.color-green-fg {
+  color: $color-green !important;
+}
+
 .btn-border-green {
   border: 1px $color-green solid !important;
   padding-left: 4px;
@@ -18,5 +42,14 @@ $paddX: 18px;
   border-radius: 12px;
 }
 .btn-border-green:hover {
+  border-color: $color-orange;
+}
+
+.btn-border-white {
+  border: 1px white solid !important;
+  padding: 1rem;
+  border-radius: 12px;
+}
+.btn-border-white:hover {
   border-color: $color-orange;
 }
